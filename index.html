@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8BitGuessr</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="map">
+            <img id="map-img" src="./img/map.png" alt="Map for guessing">
+            <div id="user-marker" class="marker" style="display: none;"></div>
+            <div id="correct-marker" class="marker correct" style="display: none;"></div>
+            <canvas id="line-canvas"></canvas>
+        </div>          
+      <iframe id="location" src="about:blank"></iframe>
+    </div>
+    <div id="controls">
+      <button id="guess-btn">Guess</button>
+      <button id="next-btn">Next</button>
+      <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
