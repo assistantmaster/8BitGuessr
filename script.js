@@ -1,6 +1,6 @@
 // Array of locations with their respective pixel coordinates
 const locations = [
-    { iframe: "https://momento360.com/e/u/197c601460234c02a76e5625e0341575?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1576, y: 2416 },
+    { iframe: "https://momento360.com/e/u/197c601460234c02a76e5625e0341575?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1576, y: 2416 }, //1.1
     { iframe: "https://momento360.com/e/u/d9bce99f38d647ba942c88b420148fdc?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1439, y: 2477 },
     { iframe: "https://momento360.com/e/u/b075dac113284b8bb08f207bfe3c2499?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1666, y: 2488 },
     { iframe: "https://momento360.com/e/u/977ff0b37bf54caa9bbefc3764cb99be?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1728, y: 2637 },
@@ -8,18 +8,50 @@ const locations = [
     { iframe: "https://momento360.com/e/u/b45fa74ee6cb40c5ae9f3ab550a3cd08?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1840, y: 2218 },
     { iframe: "https://momento360.com/e/u/94b7e508ef7f431d8f55faf9e38228a3?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1638, y: 2342 },
     { iframe: "https://momento360.com/e/u/21c9af84cd5c49779b5a895fbf8fb8d7?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1582, y: 2558 },
-    { iframe: "https://momento360.com/e/u/aeb2a2799ec34c01be234994095d7e6c?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 2678, y: 3638 },
+    { iframe: "https://momento360.com/e/u/aeb2a2799ec34c01be234994095d7e6c?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 2678, y: 3638 }, //2.1
     { iframe: "https://momento360.com/e/u/1710ab0762b441698d169f1ba2031089?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 2295, y: 3473 },
     { iframe: "https://momento360.com/e/u/0091217c9c654c68a52deaaba701c20e?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 2006, y: 3447 },
     { iframe: "https://momento360.com/e/u/fc687c0cc1ce43d78ce63f1f34a632ce?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1750, y: 3332 },
     { iframe: "https://momento360.com/e/u/e1a111ff66e149f98077a1eaf2609981?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1553, y: 3235 },
     { iframe: "https://momento360.com/e/u/f9aab678beee4fceae5be216c861d66e?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1505, y: 2838 },
     { iframe: "https://momento360.com/e/u/84ebc6bd982e45e1a0c4b19ece0b875d?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1349, y: 2548 },
+    { iframe: "https://momento360.com/e/u/116f9c06ebca44ce8ef353ac14e1c186?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 2521, y: 3702 }, //3.01
+    { iframe: "https://momento360.com/e/u/92da7d3b39d24ddeacc5992dbf70687a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 2184, y: 2655 },
+    { iframe: "https://momento360.com/e/u/52e5aa2889154bbf86ecc97292e1b623?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 2127, y: 3143 },
+    { iframe: "https://momento360.com/e/u/7ce22a20e9a948439078867d683ab863?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1785, y: 3133 },
+    { iframe: "https://momento360.com/e/u/9c84ed3866ae4a5d9a96d55fbc1afd27?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1655, y: 2828 },
+    { iframe: "https://momento360.com/e/u/c0401cdc70664aa89b3ead52131a3af9?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1389, y: 2738 },
+    { iframe: "https://momento360.com/e/u/1a30897edd75481aab321e7404388ed7?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1424, y: 2362 },
+    { iframe: "https://momento360.com/e/u/42a8d7893ecf4c5e9e2fb4437b4bc489?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1124, y: 2494 },
+    { iframe: "https://momento360.com/e/u/cf40e1f1f85f4f30aeee2595fd08744a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1267, y: 2196 },
+    { iframe: "https://momento360.com/e/u/f99d7f6f14b349e8b84ecb79bb903549?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1336, y: 2549 }, //3.10
+    { iframe: "https://momento360.com/e/u/dccb09d769cf4c848d8670fe2f660d26?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1207, y: 1934 },
+    { iframe: "https://momento360.com/e/u/4f0302302442492fa4d75c3d06f1c02e?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 966, y: 1630 },
+    { iframe: "https://momento360.com/e/u/f90e1df95ccd4d0da042982405dfbc6b?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 964, y: 1630 },
+    { iframe: "https://momento360.com/e/u/83450d7bfb924f94af0ea9d21cdd35a8?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1134, y: 1526 },
+    { iframe: "https://momento360.com/e/u/d79fb2926c8d4cb18f77efa9d006e9a8?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1714, y: 1284 },
+    { iframe: "https://momento360.com/e/u/5bd35072fe9445479c2519c5eb8b6673?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1747, y: 1292 },
+    { iframe: "https://momento360.com/e/u/63ee2894d39b47a7a9b057280aea8a05?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1774, y: 1045 },
+    { iframe: "https://momento360.com/e/u/e715338ed7854f3e9d2f2403351a087c?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1989, y: 377 },
+    { iframe: "https://momento360.com/e/u/81673d7e2fae4828a3798d169c8daa0f?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1965, y: 125 },
+    //{ iframe: "https://momento360.com/e/u/1a63b33090594d91985bde503ec527f9?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: , y:  }, //3.20
+    //{ iframe: "https://momento360.com/e/u/d338cc5ce93942aca723d758be93236d?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: , y:  },
+    //{ iframe: "https://momento360.com/e/u/0ecb90bc96764b158623317cafbd3280?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: , y:  },
+    //{ iframe: "https://momento360.com/e/u/00f7296b1a4b4206bf1565e974b75f6f?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: , y:  },
+    { iframe: "https://momento360.com/e/u/bce3ed3343a04ed28956fbfbab71df2f?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 3641, y: 742 },
+    { iframe: "https://momento360.com/e/u/eb68988b39c04f6f918d93f0c8411438?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 3023, y: 1342 },
+    { iframe: "https://momento360.com/e/u/aba5c1775d4142a6a9dab810f65d7a7c?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 2826, y: 1793 },
+    { iframe: "https://momento360.com/e/u/fc750ef2567c4aebaceeb5c8ee445d7f?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 2528, y: 2109 },
+    { iframe: "https://momento360.com/e/u/a4ba8d77c1034a509019400dc3a88d95?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 2200, y: 2363 },
+    { iframe: "https://momento360.com/e/u/87f8fccc02ea46ea9780cd570aaca778?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1890, y: 2616 },
+    { iframe: "https://momento360.com/e/u/e2f308cfc298422f850d4f14aa6ffdf1?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1633, y: 2671 }, //3.30
+    { iframe: "https://momento360.com/e/u/077a37013b5a4ae3adc9ea4028a5d8a1?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1494, y: 2475 },
+    { iframe: "https://momento360.com/e/u/b561de04888246d0833a585c40d5e238?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true", x: 1603, y: 2501 },
   ];
   
 // Global variables
 let currentIndex = 0;
-let actualLocation = locations[Math.floor(Math.random() * 15)];
+let actualLocation = locations[Math.floor(Math.random() * 44)];
 let userPosition = null; // Stores user click coordinates on the map
 let hasGuessed = false; // Tracks whether the user has already guessed
 let zoomScale = 1; // Current zoom scale
@@ -37,7 +69,7 @@ const lineCanvas = document.getElementById("line-canvas");
 
 // Load the current map and location
 function loadLocation() {
-  actualLocation = locations[Math.floor(Math.random() * 15)];
+  actualLocation = locations[Math.floor(Math.random() * 44)];
   mapImg.src = "./img/map.png"; // Static map image
   locationIframe.src = actualLocation.iframe;
 
@@ -70,7 +102,7 @@ mapDiv.addEventListener("click", (event) => {
 // Handle the guess
 function handleGuess() {
   if (!userPosition) {
-    alert("Please place your guess on the map!");
+    alert("Bitte setze deinen Marker auf der Karte!");
     return;
   }
 
@@ -89,7 +121,7 @@ function handleGuess() {
     // Draw a line connecting the two markers
     drawLine(userPosition, actualLocation);
 
-    resultText.innerText = `Your guess was ${distance.toFixed(2)} pixels away! Press Space to go to the next round.`;
+    resultText.innerText = `Dein Guess war ${distance.toFixed(2)} Blöcke entfernt! Drücke die Leertaste, um die nächste Runde zu starten.`;
     hasGuessed = true; // Update state
   } else {
     // If already guessed, go to the next location
